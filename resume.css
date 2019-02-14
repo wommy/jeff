@@ -1,0 +1,26 @@
+mark {
+	background-color: gainsboro;
+	border-radius: 3px;
+	padding: .2em .4em;
+	font-size: 85%;
+	font-family: monospace;
+}
+section {
+	margin: 2rem 0;
+}
+section header {
+	font-size: 2rem;
+	text-transform: capitalize;
+}
+img {
+	max-width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+nav h1 {
+	display:inline-block;
+	font-size:100%;
+}
+p:first-of-type{
+	margin-top:0rem;
+}

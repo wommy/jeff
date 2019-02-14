@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,61 +9,121 @@
 
 		<style>
 			body {
-				background-image: url(./img/bg.jpg);
+				background-image: url(img/bg.jpg);
 				color:white;
 				font-family: monospace;
-				margin: 6rem 1rem;
-				font-size: 120%;
-			}
-			h1, h2, h3 {
+				font-size: 150%;
+				font-variant: small-caps;
 				text-align: center;
+				letter-spacing: -2px;
+				margin: 0;
 			}
-			.flex {
+			main{
+				max-width: 75%;
+				margin: auto;
+				height: 185vh;
+			}
+			.ad {
+				height: 85vh;
+				font-size: 3rem;
+				width: 80%;
+				margin: auto;
+			}
+			.ad img{
+				max-height: 400px;
+				padding: 3rem;
+			}
+			.ad p{
+				margin: 0;
+			}
+			.ad nav{
 				display: flex;
+				flex-direction: column;
 				flex-wrap: wrap;
-				justify-content: space-evenly;
-				margin: 3rem 0;
+				height: 150px;
+				margin-top: 3rem;
 			}
-			a img {
-				height: 6rem;
-				width: 6rem;
-				margin: .5rem 0;
-				background-color: white;
+			.ad span{
+				font-size: 75%;
 			}
-			a {
-
+			h1{
+				font-size: 5rem;
+			}
+			form{
+				margin: 4rem 0;
+			}
+			form label{
+				font-size:1.75rem;
+			}
+			form h2, form p{
+				margin:.2rem;
+			}
+			form [type=submit]{
+				margin-left:220px;
+			}
+			nav{
+				max-width: 465px;
+				margin: auto;
+			}
+			a{
+				text-decoration: none;
+				color: white;
+				font-size: 3rem;
+			}
+			a:hover{
+				color:red;
 			}
 		</style>
 	</head>
-	<body id='home'>
-		<!-- <a href="://mcchris.com">mcchris.com</a> -->
-		<div id='main'>
-			<div>
-				<h1>buy the new album!!</h1>
-				<h2>#mcchrisisgoodmusic</h2>
-				<h3>physical & digital copies</h3>
-				<div class="flex">
-					<a href="https://indiemerch.com/mcchris/item/67788" target="_blank">
-						<img src="./img/gm_1.jpg" alt="blue">
-					</a>
-					<a href="https://indiemerch.com/mcchris/item/67789" target="_blank">
-						<img src="./img/gm_p.jpg" alt="pink">
-					</a>
-					<a href="https://indiemerch.com/mcchris/item/67097" target="_blank">
-						<img src="./img/gm_c.jpg" alt="cd">
-					</a>
-					<a href="https://amazon.com/dp/B07MM8LJ2Q" target="_blank">
-						<img src="./img/amazon_music.jpg" alt="blue">
-					</a>
-					<a href="https://play.google.com/store/music/album?id=Bm2eosxn2brhvyudcarlwd32tmi" target="_blank">
-						<img src="./img/google_play.png" alt="pink">
-					</a>
-					<a href="https://itunes.apple.com/us/album/mcchrisisgoodmusic/1449207030" target="_blank">
-						<img src="./img/apple_music.png" alt="cd">
-					</a>
-				</div>
+	<body>
+		<main>
+			<div class="ad">
+				<img src="img/gm_c.jpg" alt="cd">
+				<p>buy the new album<span>!!</span></p>
+				<p><span>#</span>mcchrisisgoodmusic</p>
+				<p>physical <span>&</span> digital copies</p>
+				<nav>
+					<a href="https://indiemerch.com/mcchris/item/67097">compact disk</a>
+					<a href="https://indiemerch.com/mcchris/item/67788">blue cassette</a>
+					<a href="https://indiemerch.com/mcchris/item/67789">pink casette</a>
+					<a href="https://amazon.com/dp/B07MM8LJ2Q">amazon</a>
+					<a href="https://play.google.com/store/music/album?id=Bm2eosxn2brhvyudcarlwd32tmi">google</a>
+					<a href="https://itunes.apple.com/us/album/mcchrisisgoodmusic/1449207030">itunes</a>
+				</nav>
 			</div>
-			<!-- <a href="://mcchris.com">back to my shitty website</a> -->
-		</div>
+			<div>
+				<h1>mcchris.com</h1>
+				<form>
+					<h2>join the mailing list</h2>
+					<p>
+						<label for="email">email:</label>
+						<input type="text" name="email">
+					</p>
+					<p>
+						<label for="again">again:</label>
+						<input type="text" name="again">
+					</p>
+					<input type="submit">
+				</form>
+				<nav>
+					<a href="http://mcchris.com/store">store</a>
+					<a href="https://mcchris.com/shows">shows</a>
+					<a href="https://mcchris.com/music">music</a>
+					<a href="https://mcchris.com/videos">videos</a>
+					<a href="https://mcchris.com/contact">contact</a>
+					<a href="https://gofundme.com/support-mc-chris">support_mc</a>
+					<a href="https://ebay.com/sch/therealmcchris/m.html">garage_sale</a>
+					<a href="https://patreon.com/mcchris">patreon</a>
+					<a href="https://mcchris.bandcamp.com/">bandcamp</a>
+					<a href="https://soundcloud.com/mcchrisforeverrr">soundcloud</a>
+					<a href="https://mcchris.com/">spotify</a>
+					<a href="https://youtube.com/mcvblogs">youtube</a>
+					<a href="https://instagram.com/_mcchris">instagram</a>
+					<a href="https://twitter.com/_mcchris">twitter</a>
+					<a href="https://facebook.com/pages/mc-chris/25975147278">facebook</a>
+					<a href="https://facebook.com/pg/mc-chris-25975147278/groups">fb_groups</a>
+				</nav>
+			</div>
+		</main>
 	</body>
 </html>
