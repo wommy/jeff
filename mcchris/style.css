@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/bg.jpg);
+  color: white;
+  font-family: monospace;
+  font-size: 2.75rem;
+  font-variant: small-caps;
+  text-align: center;
+  letter-spacing: -2px;
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+details {
+  cursor: pointer;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+details summary:after {
+  content: "";
+  position: absolute;
+  top: 0.25em;
+  right: 0.25em;
+  width: 1em;
+  height: 0.125em;
+  border-top: 0.375em double #FFF;
+  border-bottom: 0.125em solid #FFF;
+}
+details nav {
+  max-height: 350px;
+}
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+span {
+  font-size: 70%;
+  letter-spacing: -3px;
+}
+form input {
+  min-height: 2rem;
+  border-radius: 5px;
+  text-align: end;
+}
+form input::-webkit-input-placeholder {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: red;
+}
+.hero {
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem auto;
+}
+nav {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  max-height: 150px;
+  min-width: 300px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+nav a{
+  max-width: 160px;
+}
