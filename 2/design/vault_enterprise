@@ -1,0 +1,31 @@
+h1: vault packages
+
+section
+	.row
+		.card [3: open source, enterprise pro, enterprise premium]
+			.subtitle
+			.title
+			p
+			.btn
+
+section
+	h2: open source vs enterprise
+	p [2]
+	img
+
+section(grid)
+	header [compare offerings]
+	.row
+		img
+
+===
+
+grid
+	title
+	header_row[4: vault_svg, open source, enterprise pro, enterprise premium]
+	subtitle + [13]
+	subtitle + [3]
+	subtitle + [3]
+	subtitle + [4]
+	subtitle + [6]
+	subtitle + [3]

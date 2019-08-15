@@ -1,0 +1,5 @@
+let ejs = require('ejs'),
+    users = ['geddy', 'neil', 'alex'];
+
+ejs.render('<?= users.join(" | "); ?>', {users: users},
+    {delimiter: '?'});

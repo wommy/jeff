@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>HashiCorp Vault - Features and Pricing</title>
+
+	<style>
+		main {
+			display: flex;
+			flex-direction: column;
+		}
+		.center {
+			text-align: center;
+		}
+		.row {
+			display: flex;
+		}
+		.column {
+			display: flex;
+			flex-direction: column;
+		}
+		.card {
+			display: inline-block;
+			width: 30%;
+		}
+		.bg-invert {
+			background-color: darkgrey;
+		}
+		.cell {
+			border: 1px solid black;
+			width: 24%;
+		}
+		.table .row {
+			line-height: 40px;
+			border: .5px solid black;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<section>
+			<h1 class="center">Vault Packages</h1> 
+			
+			<div class="row">
+				<div class="card">
+					<h2>Open Source</h2>
+					<div class="row">FOR INDIVIDUALS</div> <!-- TODO make this work-->
+					<p>Secrets management and data protection</p>
+					<div class="row">
+						<span>free</span>
+						<span>download</span>
+					</div>
+				</div>
+
+				<div class="card">
+					<h2>Enterprise Pro</h2>
+					<div class="row">FOR TEAMS</div>
+					<p>All Open Source capabilities plus collaboration features for using Vault in a team setting</p>
+					<button class="get_demo">Get Demo</button>
+				</div>
+
+				<div class="card">
+					<h2>Enterprise Premium</h2>
+					<div class="row">FOR ORGANIZATIONS</div>
+					<p>All Open Source and Enterprise Pro capabilities plus governnance features for using Vault across an organization</p>
+					<button class="get_demo">Get Demo</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-invert column">
+			<h2 class="center">Open Source vs Enterprise</h2>	
+			<p class="center">Open source is aimed at individuals and addresses the technical complexity of providing one workflow to connect any service.</p>
+			<p class="center">Enterprise is aimed at teams and organizations and addresses the organizational complexity of collaboration, governance, and multiple datacenters.</p>
+			<img src="https://www.datocms-assets.com/2885/1539034397-oss-enterprise-comparison.svg" alt="open-source, enterprise comparison">
+		</section>
+
+		<section class="table">
+			<h2 class="center">Compare Offerings</h2>
+			
+			<div class="row">
+				<div class="cell"> <img src="https://www.datocms-assets.com/2885/1536611734-meganav-vault.svg" alt="vault_logo.svg"> </div>
+				
+				<div class="cell bg_img-1">  <!-- TODO make this css work-->
+					<h3>Open Source</h3>
+					<p>Secrets management and data protection</p>
+				</div>
+
+				<div class="cell bg_img-2">  <!-- TODO make this css work-->
+					<h3>Enterprise Pro</h3>
+					<p>Collaboration and operations features for teams</p>
+				</div>
+
+				<div class="cell bg_img-3">  <!-- TODO make this css work-->
+					<h3>Enterprise Premium</h3>
+					<p>Governance and policy features for organizations</p>
+				</div>
+			</div>
+
+
+			<div class="subTable">
+				<h4>SECRETS MANAGEMENT</h4>
+
+				<div class="row">
+					<header>Dynamic Secrets</header>
+					<!-- <div>Dynamic secrets are generated on demand and are unique to a client and can be revoked immediately after use, minimizing the life of the secret</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Secret Storage</header>
+					<!-- <div>Encrypt data while at rest, in the storage backend of your choice</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Secure Plugins</header>
+					<!-- <div>Improve the extensibility of Vault with pluggable backends</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Detailed Audit Logs</header>
+					<!-- <div>Vault stores a detailed audit log of all authenticated client interaction (authentication, token creation, secret access, secret revocation, etc.)</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Leasing & Revoking Secrets</header>
+					<!-- <div>Manage authorization tokens throughout your infrastructure: Create time-based tokens for automatic revocation or manual revocation</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>ACL Templates</header>
+					<!-- <div>Support templating for identity groups, entities, and metadata within ACL policies</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Vault Agent</header>
+					<!-- <div>Automatically manage the secure introduction and renewal of tokens for local applications</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>init & unseal workflow</header>
+					<!-- <div>Web browser accessible workflow</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>key rolling</header>
+					<!-- <div>Key Rolling allows the ability to update and roll new keys throughout distributed infrastructure while retaining the ability to decrypt values encrypted with past key versions</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>UI with Cluster Management</header>
+					<!-- <div>Perform all CLI/API actions from one easily accessible browser interface for secret administration and Vault multi-datacenter cluster management</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Entities & Identity Groups</header>
+					<!-- <div>An integrated system for understanding the identity of a person or system across their logins and tokens and using this information for policy and access control decisions</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Access Control Policies</header>
+					<!-- <div>Create and manage policies that authorize access control throughout your infrastructure and organization</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Identity Plugins</header>
+					<!-- <div>Extend Vault with pluggable authentication methods to directly integrate with your trusted identity providers</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+			</div>
+
+
+			<div class="subTable">
+				<h4>DATA PROTECTION</h4>
+
+				<div class="row">
+					<header>Encryption as a Service</header>
+					<!-- <div>Encrypt application data during transit and at rest.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Transit Backend</header>
+					<!-- <div>Encrypt and decrypt application data with a HTTP (TLS) API call. Key management, encryption algorithm, and more are offloaded and centrally managed by Vault.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Encryption Key Rolling</header>
+					<!-- <div>Encryption key rolling.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+			</div>
+
+
+			<div class="subTable">
+				<h4>IDENTITY-BASED ACCESS</h4>
+
+				<div class="row">
+					<header>Entities & Identity Groups</header>
+					<!-- <div>An integrated system for understanding the identity of a person or system across their logins and tokens and using this information for policy and access control decisions.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Access Control Policies</header>
+					<!-- <div>Create and manage policies that authorize access control throughout your infrastructure and organization.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Identity Plugins</header>
+					<!-- <div>Identity plugins.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+			</div>
+
+
+			<div class="subTable">
+				<h4>COLLABORATION & OPERATIONS</h4>
+
+				<div class="row">
+					<header>Namespaces</header>
+					<!-- <div>Provide Secure Multi-tenancy within Vault via isolated, self-managed environments.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>AWS KMS Auto-unseal</header>
+					<!-- <div>Automatically unseal Vault clusters using AWS Key Management System.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Azure Key Vault Auto-unseal</header>
+					<!-- <div>Automatically unseal Vault clusters using Azure Key Vault System.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>GCP Cloud KMS Auto-unseal</header>
+					<!-- <div>Automatically unseal Vault clusters using GCP Cloud Key Management System.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+			</div>
+
+
+			<div class="subTable">
+				<h4>GOVERNANCE & COMPLIANCE</h4>
+
+				<div class="row">
+					<header>Control Groups</header>
+					<!-- <div>Require multiple Identity Entities or members of Identity Groups to authorize an requested action before it is allowed to run.</div> -->
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>HSM Auto-unseal</header>
+					<!-- <div>Vault integrates HSM Master Key Wrapping and Automatic Unsealing for HSM installations.</div> -->
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Multi-factor Authentication</header>
+					<!-- <div>Enforce MFA workflows when accessing a secret or a secret path.</div> -->
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Sentinel Integration</header>
+					<!-- <div>Take advantage of HashiCorp Sentinel to provide extremely flexible access control policies -- even on unauthenticated endpoints.</div> -->
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>FIPS 140-2 & Seal Wrap</header>
+					<!-- <div>Vault can take advantage of FIPS 140-2-certified HSMs to ensure that Critical Security Parameters are protected in a compliant fashion.</div> -->
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Read Replicas</header>
+					<!-- <div>Multiply read performance for Vault Enterprise infrastructure via a new type of performance-focused node within Vault to speed up read performance within a single cluster. This is particularly useful for clusters with a high amount of throughput.</div> -->
+					<div class="check"></div>
+				</div>
+			</div>
+
+
+			<div class="subTable">
+				<h4>MULTI-DATACANTER</h4>	
+
+				<div class="row">
+					<header>Disacter Recovery</header>
+					<!-- <div>Failover Vault clusters from one data center to another with limited downtime.</div> -->
+					<div class="check"></div>
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Replication</header>
+					<!-- <div>Replication provides high availability replication of secrets and policies across multiple data centers and clouds and is built around global deployments of Vault.</div> -->
+					<div class="check"></div>
+				</div>
+
+				<div class="row">
+					<header>Replication Filters</header>
+					<!-- <div>Selectively whitelist/blacklist and activate or deactivate mounts for Secret Mounts for Replication.</div> -->
+					<div class="check"></div>
+				</div>
+			</div>
+
+
+			<div class="row footer">
+				<button class="download">Download</button>
+				<button class="get_pricing">Get Pricing</button>
+				<button class="get_pricing">Get Pricing</button>					
+			</div>
+		</section>
+	</main>
+</body>
+</html>
